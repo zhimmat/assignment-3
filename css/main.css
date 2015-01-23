@@ -1,0 +1,45 @@
+html  {
+  background-color: #3c9ac6;
+}
+h1 {
+  font-weight: normal; /* normal, bold */
+  font-size: 5rem; /* 16 is normal font */
+  font-style: italic; /* normal, italic */
+  text-decoration: underline; /* underline, line-through */
+  font-family: "Bevan",;
+  line-height: 1.5;
+}
+
+ol {
+  list-style-type: lower-roman; /* lower-roman, lower-alpha, none, decimal, circle, disc, square
+  */
+  padding: 0;
+}
+
+li {
+  font-weight:normal;
+}
+
+.cele {
+  color: darkorange;
+}
+
+.rounded{
+  color: darkorange;
+}
+
+a{
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+blockquote{
+  font-style: italic;
+}
+
+footer{
+  text-align: right;
+}
