@@ -6,14 +6,17 @@ h1 {
   font-size: 5rem; /* 16 is normal font */
   font-style: italic; /* normal, italic */
   text-decoration: underline; /* underline, line-through */
-  font-family: "Bevan",;
+  font-family: "Bevan", cursive;
   line-height: 1.5;
 }
 
-ol {
-  list-style-type: lower-roman; /* lower-roman, lower-alpha, none, decimal, circle, disc, square
-  */
+ul {
+  list-style-type: lower-roman;
+}
   padding: 0;
+}
+ol {
+  list-style-type: circle;
 }
 
 li {
@@ -40,6 +43,14 @@ blockquote{
   font-style: italic;
 }
 
-footer{
+footer {
+  text-align: right;
+}
+
+q{
+
+}
+
+.quote {
   text-align: right;
 }
